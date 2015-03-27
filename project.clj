@@ -9,6 +9,8 @@
   :plugins [[lein-ring "0.8.13"]]
 
   :main hello-world.core
+
+  :uberjar-name "hello-world-standalone.jar"
   
   :ring {:handler hello-world.handler/app}
   :profiles
