@@ -1,4 +1,5 @@
 (ns hello-world.core
+  (:gen-class)
   (:require [hello-world.handler :refer [app]])
   (:use org.httpkit.server))
 
