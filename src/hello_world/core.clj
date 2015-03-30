@@ -5,5 +5,5 @@
 
 (defonce server (atom nil))
 
-(defn -main [& args]
-  (reset! server (run-server #'app {:port 4321})))
+(defn -main [msg & args]
+  (reset! server (run-server (app msg) {:port 80})))
