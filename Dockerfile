@@ -1,6 +1,6 @@
 FROM fortruce/lein
 
-EXPOSE 4321
+EXPOSE 80
 
 ADD . .
 
